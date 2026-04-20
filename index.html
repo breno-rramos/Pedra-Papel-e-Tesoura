@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head> 
+<body>
+    <nav>
+        <div>
+            <h1>Pedra, Papel e Tesoura</h1>
+        </div>
+    </nav>
+    <main>
+        <div id="caixa">
+            <h1 class="dcaixa">Escolha:</h1>
+                <div id="opcoes">
+                <button class="opcoes"  onclick="jogar('pedra')">&#9994  Pedra</button>
+                <button class="opcoes"  onclick="jogar('papel')">&#9995Papel</button>
+                <button class="opcoes"  onclick="jogar('tesoura')">&#9996tesoura</button>
+            </div>
+            <div class="dcaixa" id="escolha-user"></div>
+            <div class="dcaixa" id="escolha-pc"></div>
+            <div class="dcaixa" id="res"></div>
+
+        </div>
+    </main>
+    <footer>
+        &copy; Breno 2026
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
